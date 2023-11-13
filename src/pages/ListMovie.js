@@ -11,7 +11,7 @@ export default function ListMovie() {
     const [data, setData] = useState(null);
     const [isLoaded, setisLoaded] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
-    const [query, setQuery] = useState("One Piece");
+    const [query, setQuery] = useState("Iron Man");
     
 
     
@@ -24,7 +24,7 @@ export default function ListMovie() {
                 params: { q: query },
                 headers: {
                     "X-RapidAPI-Host": "imdb8.p.rapidapi.com",
-                    "X-RapidAPI-Key": "bbeb825a2amshe59bc099a94326dp1ac071jsn78e1a7ee610c",
+                    "X-RapidAPI-Key": "ee4ea94c99mshb4dcf3716227e3fp1fd465jsna385dd04617c",
                 },
                 }
             );
