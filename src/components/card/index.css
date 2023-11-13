@@ -1,0 +1,45 @@
+.card {
+    width: 175px;
+    height: fit-content;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin: 0 8px 10px 0;
+    }
+    
+.card-info {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 9px 12px;
+}
+
+.detail-btn {
+    background-color: skyblue;
+    border-radius: 5px;
+    border: none;
+    color: grey;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.detail-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.figure {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.list-img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
