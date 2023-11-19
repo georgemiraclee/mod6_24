@@ -27,7 +27,7 @@ export default function DetailMovie() {
             params: { tconst: data },
             headers: {
               "X-RapidAPI-Host": "imdb8.p.rapidapi.com",
-              "X-RapidAPI-Key": "ee4ea94c99mshb4dcf3716227e3fp1fd465jsna385dd04617c", // Ganti dengan kunci API yang valid
+              'X-RapidAPI-Key': '6e61147157msh3c1213fa694464ep150263jsnece59e9356ca'
             },
           }
         );

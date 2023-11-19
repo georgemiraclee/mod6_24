@@ -24,7 +24,7 @@ export default function ListMovie() {
                 params: { q: query },
                 headers: {
                     "X-RapidAPI-Host": "imdb8.p.rapidapi.com",
-                    "X-RapidAPI-Key": "ee4ea94c99mshb4dcf3716227e3fp1fd465jsna385dd04617c",
+                    'X-RapidAPI-Key': '6e61147157msh3c1213fa694464ep150263jsnece59e9356ca'
                 },
                 }
             );
